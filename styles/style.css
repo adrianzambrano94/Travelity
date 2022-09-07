@@ -1,0 +1,161 @@
+.myBodyClass{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Secciones */
+.myheader{
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #4492DF;
+}
+.seccionTurimoFuturo{
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #FBFBFB;
+}
+.seccionInfoAndTeam{
+  background-color: white;
+}
+.seccionContacto{
+  background-color: #f3f3f3;
+}
+.seccionFooter{
+  background-color: #e5e5e5;
+}
+
+
+/* Botones */
+.myBtnTransparent{
+  background-color: #4492DF;
+  color: white;
+  border: solid 2px rgba(255, 255, 255, 0.3);
+  transition: .5s;
+
+}
+.myBtnTransparent:hover{
+  background-color: #6da9e6;
+  color: white;
+  border: solid 2px rgba(255, 255, 255, 0.5);
+  transition: .5s;
+}
+.myBtnWhite{
+  background-color: white;
+  color: #4492DF;
+  border: solid 2px #4492df4d;
+  transition: .5s;
+
+}
+.myBtnWhite:hover{
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #4492DF;
+  border: solid 2px #4492dfd0;
+  transition: .5s;
+}
+
+
+
+/* Particularidades */
+.h3Turismo{
+  padding-top: 70px;
+  padding-bottom: 40px;
+  color: #4696e5;
+}
+.myImgTurismo{
+  height: 370px;
+  transition: 0.5s;
+}
+.myImgTurismo:hover{
+  height: 450px;
+  transition: 0.5s;
+  margin-top: -120px;
+}
+.myImagenPhoneEffect{
+ border: solid 2px rgba(255, 255, 255, 0.4);
+}
+.rectangle1{
+  height: 40px;
+  border-left: solid 2px rgba(255, 255, 255, 0.4);
+  border-right: solid 2px rgba(255, 255, 255, 0.4);
+  border-top: solid 2px rgba(255, 255, 255, 0.4);
+  border-radius: 15px 15px 0px 0px;
+}
+.rectancleInner{
+  width: 15%;
+  height: 5px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 2px;
+}
+.rectangle2{
+  height: 55px;
+  border-left: solid 2px rgba(255, 255, 255, 0.4);
+  border-right: solid 2px rgba(255, 255, 255, 0.4);
+  border-bottom: solid 2px rgba(255, 255, 255, 0.4);
+  border-radius: 0px 0px 15px 15px;
+}
+.circle {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: solid 2px rgba(255, 255, 255, 0.4);
+}
+.myImage{
+  border-radius: 50%;
+  height: 230px;
+  width: 230px;
+  border: solid 2px rgba(128, 128, 128, 0.3);
+  transition: 0.5s;
+}
+.myImage:hover{
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  border: solid 2px rgba(128, 128, 128, 0.3);
+  transition: 0.5s;
+}
+.myTextGray{
+  color: rgba(0, 0, 0, 0.6);
+}
+.myGray{
+  filter: grayscale(100%);
+}
+.myGray:hover{
+  filter: grayscale(0%);
+}
+
+/* tags */
+h1{
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+h4{
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
+button{
+  padding: 9px 25px;
+  border-radius: 7px;
+  font-weight: 900;
+}
